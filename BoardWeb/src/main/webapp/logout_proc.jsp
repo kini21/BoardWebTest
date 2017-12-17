@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
+<%-- <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
 
 <%
@@ -7,4 +7,4 @@
 	
 	//2. 세션 종료 후, 메인화면으로 이동한다.
 	response.sendRedirect("login.jsp");
-%>
+%> --%>

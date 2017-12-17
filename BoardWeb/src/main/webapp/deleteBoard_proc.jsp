@@ -1,4 +1,4 @@
-<%@page import="com.springbook.biz.board.BoardVO" %>
+<%-- <%@page import="com.springbook.biz.board.BoardVO" %>
 <%@page import="com.springbook.biz.board.impl.BoardDAO" %>
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
@@ -16,4 +16,4 @@
 	
  	//3. 화면 네비게이션
  	response.sendRedirect("getBoardList.jsp");
-%>
+%> --%>
