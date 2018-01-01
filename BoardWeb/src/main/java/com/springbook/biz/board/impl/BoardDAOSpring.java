@@ -1,4 +1,4 @@
-package com.springbook.biz.board.impl;
+/*package com.springbook.biz.board.impl;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -81,3 +81,4 @@ class BoardRowMapper implements RowMapper<BoardVO>{
         return board;
     }
 }
+*/

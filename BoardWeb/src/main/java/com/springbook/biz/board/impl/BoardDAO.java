@@ -1,4 +1,4 @@
-package com.springbook.biz.board.impl;
+/*package com.springbook.biz.board.impl;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -24,8 +24,8 @@ public class BoardDAO{
     private final String BOARD_UPDATE = "update board set title=?, writer=?, content=? where seq=?";
     private final String BOARD_DELETE = "delete from board where seq=?";
     private final String BOARD_GET    = "select * from board where seq=?";
-    private final String BOARD_LIST_T = "select * from board where title like '%'||?||'%' order by seq desc";
-    private final String BOARD_LIST_C = "select * from board where content like '%'||?||'%' order by seq desc";
+    private final String BOARD_LIST_T = "select * from board where title like CONCAT('%',?,'%') order by seq desc";
+    private final String BOARD_LIST_C = "select * from board where content like CONCAT('%',?,'%') order by seq desc";
 
     // CRUD 기능의 메소드 구현
     // 글 등록
@@ -135,4 +135,4 @@ public class BoardDAO{
         return boardList;
     }    
 
-}
+}*/
